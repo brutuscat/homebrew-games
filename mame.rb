@@ -2,7 +2,8 @@ require 'formula'
 
 class Mame < Formula
   homepage 'http://mamedev.org/'
-  url 'git://git.redump.net/mame', :revision => 'mame0151'
+  # url 'git://git.redump.net/mame', :revision => 'mame0151'
+  url 'file:///Users/mauroasprea/mame', :revision => 'feb3d67'
   version '0.151'
 
   head 'git://git.redump.net/mame'
