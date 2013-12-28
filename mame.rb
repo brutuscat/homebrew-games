@@ -8,7 +8,7 @@ class Mame < Formula
   head 'git://git.redump.net/mame'
 
   def patches
-    "https://gist.github.com/brutuscat/8163526/raw/a37fddc7c6a7c7e1bab6f2d9f064940dfa9da63b/sdl2-patch.diff"
+    "https://gist.github.com/brutuscat/8163526/raw/f9d489982385d5869a8b6ba07397e8dcb0818c79/sdl2-patch.diff"
   end
   
   depends_on :x11
