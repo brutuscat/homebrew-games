@@ -2,10 +2,10 @@ require 'formula'
 
 class RomTools < Formula
   homepage 'http://mamedev.org/'
-  url 'svn://dspnet.fr/mame/trunk', :revision => '24476'
-  version '0.149u1'
+  url 'git://git.redump.net/mame', :revision => 'mame0151'
+  version '0.151'
 
-  head 'svn://dspnet.fr/mame/trunk'
+  head 'git://git.redump.net/mame'
 
   depends_on :x11
   depends_on 'sdl'
